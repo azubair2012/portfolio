@@ -4,7 +4,7 @@ import Crypto from "/public/assets/images/crypto.png";
 import Transition from "../components/Transition";
 import Art from "/public/assets/images/art.png";
 import Fashion from "/public/assets/images/fashion.png";
-import Bike from "/public/assets/images/bike.png";
+// import Bike from "/public/assets/images/bike.png";
 
 const Projects = () => {
   return (
@@ -40,14 +40,16 @@ const Projects = () => {
           url="https://projects-beta-ochre.vercel.app/crypto"
           github={"https://github.com/azubair2012/projects"}
         />
-        <Project
+        {/* Bike site. Module not found was showing. */}
+
+        {/* <Project
           image={Bike}
           description={"This is a Bike shop"}
           header={"Bike SHop"}
           alt={"null"}
           url="https://projects-beta-ochre.vercel.app/bike"
           github={"https://github.com/azubair2012/projects"}
-        />
+        /> */}
       </div>
     </div>
   );
