@@ -32,15 +32,15 @@ const Home = () => {
             </span>
             &lt;
           </div>
-          <div className="font-title lg:font-extrabold lg:text-[40px] text-[30px] font-medium">
+          <div className="font-title lg:font-extrabold lg:text-[30px] text-[20px] font-medium">
             Hi,
           </div>
           <div className="text-[#2b8888] font-title lg:font-extrabold lg:text-[100px]  text-[50px] font-bold">
             I'm Zubair
           </div>
-          <div className="justify-evenly font-text2 lg:text-[20px] text-[16px]">
-            A full-stack web developer. <br /> I turn ideas into innovative web
-            applications.
+          <div className="justify-evenly font-title lg:text-[30px] text-[16px]">
+            A full-stack web developer & graphic designer. <br /> I turn ideas
+            into innovative web applications.
           </div>
           <div className="flex gap-8 sm:pb-10 justify-center lg:justify-start">
             <Link
