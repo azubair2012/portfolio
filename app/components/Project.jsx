@@ -16,7 +16,9 @@ const Pro = (props) => {
               />
             </div>
             <div className="text-center  font-title">
-              <div className="text-[40px] font-extrabold">{props.header}</div>
+              <div className=" text-[30px] lg:text-[40px] font-extrabold">
+                {props.header}
+              </div>
               <div className="text-[20px]">{props.description}</div>
 
               {/* button group */}

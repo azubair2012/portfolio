@@ -8,7 +8,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="border-t-4 border-[#A93800] text-center bg-[#003336] w-screen invisible md:visible lg:visible pt-4">
+    <div className="lg:mt-[100px] border-t-4 border-[#A93800] text-center bg-[#003336] w-screen invisible md:visible lg:visible py-4">
       <div className="lg:text-[40px] text-[24px] text-white font-title">
         Building your online presence, one pixel at a time
       </div>

@@ -12,13 +12,13 @@ const Home = () => {
       <div>
         <Hire />
       </div>
-      <div className="flex justify-center items-center flex-col lg:flex-row">
+      <div className="flex justify-center items-center flex-col lg:gap-[100px] lg:flex-row lg:pt-10">
         <div>
           <Image
             priority={true}
             src={Face}
             alt="Face"
-            className="w-[200px] lg:w-[900px] md:w-[700px]"
+            className="-mt-[20px] w-[250px] lg:w-[700px] md:w-[500px]"
           />
         </div>
 

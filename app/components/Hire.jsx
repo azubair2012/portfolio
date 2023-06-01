@@ -6,7 +6,7 @@ import ct from "/public/assets/icons/ct.svg";
 
 function Hire() {
   return (
-    <div className="hidden lg:flex md:hidden items-center justify-center lg:absolute mt-[600px] pl-[70px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
+    <div className="hidden lg:flex items-center justify-center lg:absolute mt-[600px] pl-[70px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
       <Image src={ct} alt="Hire Me" className=" animate-spin-slow w-[180px]" />
 
       <Link

@@ -41,6 +41,13 @@ const Navbar = () => {
           >
             Projects
           </Link>
+          <Link
+            className="hover:underline animate-bounce invisible md:visible sm:visible lg:invisible underline-offset-4 decoration-[#A93800]"
+            href="https://www.upwork.com/workwith/abuzubair"
+            target="_blank"
+          >
+            Hire Me
+          </Link>
         </div>
       </div>
 
