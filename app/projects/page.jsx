@@ -45,7 +45,6 @@ const Projects = () => {
           description={"This is a Bike shop"}
           header={"Bike SHop"}
           alt={"null"}
-          priority={true}
           url="https://projects-beta-ochre.vercel.app/bike"
           github={"https://github.com/azubair2012/projects"}
         />
