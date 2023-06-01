@@ -16,8 +16,10 @@ const Pro = (props) => {
               />
             </div>
             <div className="text-center  font-title">
-              <div className="text-4xl font-extrabold">{props.header}</div>
-              <div className="">{props.description}</div>
+              <div className="text-[40px] font-extrabold">{props.header}</div>
+              <div className="text-[20px]">{props.description}</div>
+
+              {/* button group */}
               <div className="flex gap-4 items-center justify-center pt-6">
                 <Link
                   href={`${props.github}`}

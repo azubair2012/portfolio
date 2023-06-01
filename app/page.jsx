@@ -24,9 +24,10 @@ const Home = () => {
 
         <div className="lg:text-left text-center  ">
           <div className="font-title lg:font-extrabold lg:text-[40px] md:text-[30px] text-[30px] font-medium">
-            Turning Vision Into <br /> Reality With &gt;
+            Turning Vision Into Reality
+            <br /> With &gt;
             <span>
-              <span className="text-[#166b92]">Code </span>
+              <span className="text-[#166b92]"> Code </span>
               And <span className="text-[#e95858]">Design </span>
             </span>
             &lt;
@@ -37,7 +38,7 @@ const Home = () => {
           <div className="text-[#2b8888] font-title lg:font-extrabold lg:text-[100px]  text-[50px] font-bold">
             I'm Zubair
           </div>
-          <div className="justify-evenly font-text2 text-[16px]">
+          <div className="justify-evenly font-text2 lg:text-[20px] text-[16px]">
             A full-stack web developer. <br /> I turn ideas into innovative web
             applications.
           </div>

@@ -18,7 +18,6 @@ const Projects = () => {
         </div>
         <Project
           image={Art}
-          title={"Website"}
           description={"Event Booking Site"}
           header={"Art Gellary"}
           alt={"null"}
@@ -27,16 +26,14 @@ const Projects = () => {
         />
         <Project
           image={Fashion}
-          title={"Fashion Website"}
-          description={"Fashion Website"}
-          header={"E-Commerce Site"}
+          description={"E-Commerce Site"}
+          header={"Fashion Website"}
           alt={"null"}
           url="https://projects-beta-ochre.vercel.app/"
           github={"https://github.com/azubair2012/projects"}
         />
         <Project
           image={Crypto}
-          title={"App"}
           description={"Crypto Trading App"}
           header={"Crypto Trading App"}
           alt={"null"}
@@ -45,7 +42,6 @@ const Projects = () => {
         />
         <Project
           image={Bike}
-          title={"E-Commerce"}
           description={"This is a Bike shop"}
           header={"Bike SHop"}
           alt={"null"}
