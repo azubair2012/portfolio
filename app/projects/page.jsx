@@ -3,8 +3,8 @@ import Project from "../components/Project";
 import Bike from "/public/assets/images/Bike.png";
 import Crypto from "/public/assets/images/crypto.jpg";
 import Transition from "../components/Transition";
-import Art from "/public/assets/images/art.JPG";
-import Fashion from "/public/assets/images/fashion.JPG";
+import Art from "/public/assets/images/art.jpg";
+import Fashion from "/public/assets/images/fashion.jpg";
 
 const Projects = () => {
   return (
