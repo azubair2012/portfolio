@@ -17,19 +17,19 @@ const Projects = () => {
           Imagination Trumps Knowledge!
         </div>
         <Project
-          image={Art}
-          description={"Event Booking Site"}
-          header={"Art Gellary"}
-          alt={"null"}
-          url={"https://projects-beta-ochre.vercel.app/art"}
-          github={"https://github.com/azubair2012/projects"}
-        />
-        <Project
           image={Fashion}
           description={"E-Commerce Site"}
           header={"Fashion Website"}
           alt={"null"}
           url="https://projects-beta-ochre.vercel.app/"
+          github={"https://github.com/azubair2012/projects"}
+        />
+        <Project
+          image={Art}
+          description={"Event Booking Site"}
+          header={"Art Gellary"}
+          alt={"null"}
+          url={"https://projects-beta-ochre.vercel.app/art"}
           github={"https://github.com/azubair2012/projects"}
         />
         <Project
