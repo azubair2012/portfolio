@@ -1,10 +1,10 @@
 import React from "react";
 import Project from "../components/Project";
-import Bike from "/public/assets/images/Bike.png";
-import Crypto from "/public/assets/images/crypto.jpg";
+import Bike from "/public/assets/images/bike.png";
+import Crypto from "/public/assets/images/crypto.png";
 import Transition from "../components/Transition";
-import Art from "/public/assets/images/art.jpg";
-import Fashion from "/public/assets/images/fashion.jpg";
+import Art from "/public/assets/images/art.png";
+import Fashion from "/public/assets/images/fashion.png";
 
 const Projects = () => {
   return (
