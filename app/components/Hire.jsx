@@ -10,7 +10,7 @@ function Hire() {
       <Image src={ct} alt="Hire Me" className=" animate-spin-slow w-[180px]" />
 
       <Link
-        href="https://www.upwork.com/workwith/abuzubair"
+        href="https://wa.me/8801776909659"
         className=" hover:bg-white hover:text-black bg-black text-white w-[80px] h-[80px] rounded-full flex items-center justify-center absolute font-bold border-solid border border-black"
         target="_blank"
       >
