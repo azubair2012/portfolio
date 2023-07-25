@@ -4,6 +4,7 @@ import Crypto from "/public/assets/images/crypto.png";
 import Transition from "../components/Transition";
 import Art from "/public/assets/images/art.png";
 import Fashion from "/public/assets/images/fashion.png";
+
 // import Bike from "/public/assets/images/bike.png";
 
 const Projects = () => {
@@ -12,6 +13,7 @@ const Projects = () => {
       <div>
         <Transition />
       </div>
+
       <div className="flex flex-col gap-8 items-center">
         <div className="text-center font-title lg:font-extrabold lg:text-[120px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
           Imagination Trumps Knowledge!
