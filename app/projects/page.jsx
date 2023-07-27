@@ -4,6 +4,7 @@ import Crypto from "/public/assets/images/crypto.png";
 import Transition from "../components/Transition";
 import Art from "/public/assets/images/art.png";
 import Fashion from "/public/assets/images/fashion.png";
+import PGB from "/public/assets/images/pgb.jpg";
 
 // import Bike from "/public/assets/images/bike.png";
 
@@ -15,9 +16,17 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-col gap-8 items-center">
-        <div className="text-center font-title lg:font-extrabold lg:text-[120px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
+        <div className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
           Imagination Trumps Knowledge!
         </div>
+        <Project
+          image={PGB}
+          description={"E-Commerce Site"}
+          header={"Engineering Website"}
+          alt={"null"}
+          url="http://pgbelectronic.com/"
+          github={"https://github.com/azubair2012/PGB_electronics"}
+        />
         <Project
           image={Fashion}
           description={"E-Commerce Site"}
@@ -42,16 +51,6 @@ const Projects = () => {
           url="https://projects-beta-ochre.vercel.app/crypto"
           github={"https://github.com/azubair2012/projects"}
         />
-        {/* Bike site. Module not found was showing. */}
-
-        {/* <Project
-          image={Bike}
-          description={"This is a Bike shop"}
-          header={"Bike SHop"}
-          alt={"null"}
-          url="https://projects-beta-ochre.vercel.app/bike"
-          github={"https://github.com/azubair2012/projects"}
-        /> */}
       </div>
     </div>
   );

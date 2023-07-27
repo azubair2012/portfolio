@@ -18,7 +18,7 @@ const Navbar = () => {
         <div>
           <Link href="/">
             <div className="flex items-center justify-center bg-[#184a4a] font-title text-white text-[40px] w-[70px] h-[70px] rounded-full">
-              AZ
+              SZ
             </div>
           </Link>
         </div>
@@ -40,6 +40,12 @@ const Navbar = () => {
             href="/projects"
           >
             Projects
+          </Link>
+          <Link
+            className="hover:underline underline-offset-4 decoration-[#A93800] animate-bounce"
+            href="/contact"
+          >
+            Contact Us
           </Link>
           <Link
             className="hover:underline animate-bounce invisible md:visible sm:visible lg:invisible underline-offset-4 decoration-[#A93800]"
