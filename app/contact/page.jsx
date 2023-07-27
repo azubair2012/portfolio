@@ -22,7 +22,7 @@ const page = () => {
       </div>
       {/* icon section */}
       <div className="lg:flex sm:flex-cols justify-center gap-10 py-10">
-        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-xl">
+        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl">
           <div className="w-[14rem] h-[300px] bg-[#b5f9f9] mb-3 rounded-3xl text-center flex items-center justify-center">
             {/* inner icon box */}
             <div className="flex justify-center items-center gap-6">
@@ -78,7 +78,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-xl">
+        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl">
           <div className="w-[14rem] h-[300px] bg-[#b5f9f9] mb-3 rounded-3xl flex flex-col justify-center items-center">
             <div className="hover:scale-125 ease-in duration-150 ">
               <Link href="mailto:studio.zubair@gmail.com">
@@ -90,7 +90,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-xl">
+        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl">
           <div className="w-[14rem] h-[300px] bg-[#b5f9f9] mb-3 rounded-3xl flex flex-col justify-center items-center">
             <div className="hover:scale-125 ease-in duration-150 ">
               <Link href="tel:+8801776909659">
