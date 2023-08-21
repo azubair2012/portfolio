@@ -18,12 +18,12 @@ const page = () => {
         <Transition />
       </div>
       <div className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
-        Let's Build Something Awesome !
+        Let's Build Something Awesome!
       </div>
       {/* icon section */}
-      <div className="lg:flex sm:flex-cols justify-center gap-10 py-10">
-        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl">
-          <div className="w-[14rem] h-[300px] bg-[#b5f9f9] mb-3 rounded-3xl text-center flex items-center justify-center">
+      <div className="lg:flex flex-cols justify-center ml-[70px] gap-10 py-10">
+        <div className="w-[230px] lg:h-[320px] h-[240px] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl mb-4">
+          <div className="w-[224px] lg:h-[300px] h-[220px] bg-[#b5f9f9] mb-3 rounded-3xl text-center flex items-center justify-center">
             {/* inner icon box */}
             <div className="flex justify-center items-center gap-6">
               <div className="flex flex-col gap-6 ">
@@ -78,8 +78,8 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl">
-          <div className="w-[14rem] h-[300px] bg-[#b5f9f9] mb-3 rounded-3xl flex flex-col justify-center items-center">
+        <div className="w-[230px] lg:h-[320px] h-[240px] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl mb-4">
+          <div className="w-[14rem] lg:h-[300px] h-[220px] bg-[#b5f9f9] mb-3 rounded-3xl flex flex-col justify-center items-center">
             <div className="hover:scale-125 ease-in duration-150 ">
               <Link href="mailto:studio.zubair@gmail.com">
                 <Image src={Email} width={50} height={50} />
@@ -90,8 +90,8 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="w-[230px] h-[20rem] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl">
-          <div className="w-[14rem] h-[300px] bg-[#b5f9f9] mb-3 rounded-3xl flex flex-col justify-center items-center">
+        <div className="w-[230px] lg:h-[320px] h-[240px] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl">
+          <div className="w-[224px] lg:h-[300px] h-[220px] bg-[#b5f9f9] mb-3 rounded-3xl flex flex-col justify-center items-center">
             <div className="hover:scale-125 ease-in duration-150 ">
               <Link href="tel:+8801776909659">
                 <Image src={Phone} width={50} height={50} />
@@ -102,12 +102,12 @@ const page = () => {
         </div>
       </div>
       {/* form section */}
-      <div className="flex lg:flex-row flex-col-reverse justify-center gap-28 mt-10">
-        <div className="w-[560px] h-[720px] rounded-3xl border-solid bg-[#003336] flex items-center justify-center">
-          <div className="w-[552px] h-[700px] bg-[#00ADAD] mb-3 rounded-3xl flex flex-col items-center">
+      <div className="flex lg:flex-row flex-col-reverse justify-center gap-28 mt-2">
+        <div className="lg:w-[560px] px-1 w-full h-[720px] rounded-3xl border-solid bg-[#003336] flex items-center justify-center">
+          <div className="lg:w-[552px] w-full h-[700px] bg-[#00ADAD] mb-3 rounded-3xl flex flex-col items-center">
             {/* title text */}
             <div className="text-[30px] text-slate-900 font-bold pt-14">
-              Not to sure?
+              Have a project in mind?
               <br />
               GET IN TOUCH...
             </div>

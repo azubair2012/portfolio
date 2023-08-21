@@ -64,11 +64,11 @@ const Navbar = () => {
           onClick={handleNav}
         >
           <div>
-            <HiMenu />
+            <HiMenu size={35} />
           </div>
           <div className="text-white bg-[#003336] animate-bounce rounded-[4px] w-[80px] h-8 flex items-center justify-center">
             <Link href="https://wa.me/8801776909659" target="_blank">
-              Hire Me
+              Hire Us
             </Link>
           </div>
         </div>
@@ -92,12 +92,13 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
                 <Link href="/about">About</Link>
                 <Link href="/projects">Projects</Link>
+                <Link href="/contact">Contact</Link>
                 <Link
                   className="bg-white text-black mt-6 animate-bounce rounded-[4px] w-[100px] h-8 flex items-center justify-center"
                   href="https://wa.me/8801776909659"
                   target="_blank"
                 >
-                  Hire Me
+                  Hire Us
                 </Link>
               </div>
               <div onClick={handleNav}>
