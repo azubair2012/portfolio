@@ -54,6 +54,7 @@ const Form = () => {
             type="email"
             name="user_email"
             className="w-[350px] px-2 py-2 border-2 border-gray-800 rounded-full"
+            placeholder="example@email.com"
           />
         </div>
         <div className="flex flex-col font-bold text-lg mb-2">
