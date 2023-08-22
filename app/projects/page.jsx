@@ -24,7 +24,7 @@ const Projects = () => {
           description={"E-Commerce Site"}
           header={"Engineering Website"}
           alt={"null"}
-          url="http://pgbelectronic.com/"
+          url="https://pgbelectronic.com/"
           github={"https://github.com/azubair2012/PGB_electronics"}
         />
         <Project
