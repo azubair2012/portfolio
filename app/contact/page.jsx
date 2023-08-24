@@ -81,12 +81,12 @@ const page = () => {
         <div className="w-[230px] lg:h-[320px] h-[240px] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl mb-4">
           <div className="w-[14rem] lg:h-[300px] h-[220px] bg-[#b5f9f9] mb-3 rounded-3xl flex flex-col justify-center items-center">
             <div className="hover:scale-125 ease-in duration-150 ">
-              <Link href="mailto:studio.zubair@gmail.com">
+              <Link href="mailto:abuzubair@studiozubair.com">
                 <Image src={Email} width={50} height={50} />
               </Link>
             </div>
             <div className="text-[22px] font-bold pt-3">
-              studio.zubair@gmail.com
+              abuzubair@studiozubair.com
             </div>
           </div>
         </div>
