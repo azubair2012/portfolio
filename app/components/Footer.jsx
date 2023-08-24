@@ -3,6 +3,7 @@ import React from "react";
 import { BsFacebook, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { ImInstagram } from "react-icons/im";
 import { FiDribbble } from "react-icons/fi";
+import Backtotop from "../components/Backtotop";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,6 +13,8 @@ const Footer = () => {
       <div className="lg:text-[40px] text-[24px] text-white font-title">
         Building your online presence, one pixel at a time
       </div>
+      <Backtotop />
+      {/* btn */}
       <div className="flex justify-center gap-4">
         <Link href="https://www.facebook.com/azubair108" target="_blank">
           <BsFacebook color="white" />
