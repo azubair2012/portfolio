@@ -22,7 +22,7 @@ const Pro = (props) => {
               <div className="text-[20px]">{props.description}</div>
 
               {/* button group */}
-              <div className="flex gap-4 items-center justify-center pt-6">
+              <div className="flex gap-8 items-center justify-center pt-6">
                 <Link
                   href={`${props.github}`}
                   className="transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-200"
