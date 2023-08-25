@@ -12,7 +12,7 @@ const Backtotop = () => {
   return (
     <div>
       <button
-        className="absolute right-16 opacity-50 hover:opacity-100 cursor-pointer flex flex-col text-white justify-center items-center"
+        className="absolute invisible lg:visible lg:right-16 opacity-50 hover:opacity-100 cursor-pointer flex flex-col text-white justify-center items-center"
         onClick={goToTop}
       >
         <BsArrowUpCircle color="white" size={40} />

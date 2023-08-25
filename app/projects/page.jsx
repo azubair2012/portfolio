@@ -5,6 +5,7 @@ import Transition from "../components/Transition";
 import Art from "/public/assets/images/art.png";
 import Fashion from "/public/assets/images/fashion.png";
 import PGB from "/public/assets/images/pgb.jpg";
+import Jam from "/public/assets/images/jam.jpg";
 
 // import Bike from "/public/assets/images/bike.png";
 
@@ -21,11 +22,19 @@ const Projects = () => {
         </div>
         <Project
           image={PGB}
-          description={"E-Commerce Site"}
+          description={"Portfolio"}
           header={"Engineering Website"}
           alt={"null"}
           url="https://pgbelectronic.com/"
           github={"https://github.com/azubair2012/PGB_electronics"}
+        />
+        <Project
+          image={Jam}
+          description={"Portfolio"}
+          header={"Law Firm"}
+          alt={"null"}
+          url="https://loquacious-alpaca-196463.netlify.app/"
+          github={"https://github.com/azubair2012/JAM_associates"}
         />
         <Project
           image={Fashion}
