@@ -6,7 +6,7 @@ import Art from "/public/assets/images/art.png";
 import Fashion from "/public/assets/images/fashion.png";
 import PGB from "/public/assets/images/pgb.jpg";
 import Jam from "/public/assets/images/jam.jpg";
-import JR from "/public/assets/images/sdv.jpg";
+import JR from "/public/assets/images/jandr.png";
 
 // import Bike from "/public/assets/images/bike.png";
 
