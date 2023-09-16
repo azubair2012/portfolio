@@ -25,7 +25,7 @@ const Projects = () => {
           image={JR}
           description={"Car insurance website"}
           header={"J & R Insurance"}
-          alt={"null"}
+          alt={"jr"}
           url="https://jandr.vercel.app/"
           github={"https://github.com/azubair2012/jandr"}
         />
