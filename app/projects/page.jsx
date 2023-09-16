@@ -6,6 +6,7 @@ import Art from "/public/assets/images/art.png";
 import Fashion from "/public/assets/images/fashion.png";
 import PGB from "/public/assets/images/pgb.jpg";
 import Jam from "/public/assets/images/jam.jpg";
+import JR from "/public/assets/images/sdv.JPG";
 
 // import Bike from "/public/assets/images/bike.png";
 
@@ -20,6 +21,14 @@ const Projects = () => {
         <div className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
           Imagination Trumps Knowledge!
         </div>
+        <Project
+          image={JR}
+          description={"Car insurance website"}
+          header={"J & R Insurance"}
+          alt={"null"}
+          url="https://jandr.vercel.app/"
+          github={"https://github.com/azubair2012/jandr"}
+        />
         <Project
           image={PGB}
           description={"Portfolio"}
