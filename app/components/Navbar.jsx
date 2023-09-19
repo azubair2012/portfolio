@@ -49,7 +49,7 @@ const Navbar = () => {
           </Link>
           <Link
             className="hover:underline animate-bounce invisible md:visible sm:visible lg:invisible underline-offset-4 decoration-[#A93800]"
-            href="https://wa.me/8801776909659"
+            href="https://wa.me/8801576400528"
             target="_blank"
           >
             Hire Me
@@ -67,7 +67,7 @@ const Navbar = () => {
             <HiMenu size={35} />
           </div>
           <div className="text-white bg-[#003336] animate-bounce rounded-[4px] w-[80px] h-8 flex items-center justify-center">
-            <Link href="https://wa.me/8801776909659" target="_blank">
+            <Link href="https://wa.me/8801576400528" target="_blank">
               Hire Us
             </Link>
           </div>
@@ -95,7 +95,7 @@ const Navbar = () => {
                 <Link href="/contact">Contact</Link>
                 <Link
                   className="bg-white text-black mt-6 animate-bounce rounded-[4px] w-[100px] h-8 flex items-center justify-center"
-                  href="https://wa.me/8801776909659"
+                  href="https://wa.me/8801576400528"
                   target="_blank"
                 >
                   Hire Us
