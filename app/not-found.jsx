@@ -7,8 +7,8 @@ const notFound = () => {
       <div className="bg-black w-[50vw] h-[90vh] text-white flex flex-col justify-center items-center px-8">
         <p className="text-[100px]">404</p>
         <div className="text-center">
-          <p className="text-5xl">Sorry</p>
-          <p className="mt-2 text-lg">
+          <p className="text-5xl text-yellow-400">Sorry</p>
+          <p className="mt-2 text-lg text-yellow-400">
             Either you aren't cool enough to visit this page or it doesn't
             exist.
           </p>
