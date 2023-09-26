@@ -38,9 +38,16 @@ const Footer = () => {
         <p>
           &copy; <span>{currentYear}</span> All rights reserved.
         </p>
-        <p className=" text-white">
+        <p className=" text-white hover:underline">
           Built with 🤍 by <Link href="/">Studio Zubair</Link>{" "}
         </p>
+        <Link
+          href="https://azubair2012.github.io/privacy-policy/"
+          className="hover:underline"
+          target="_blank"
+        >
+          Privacy Policy
+        </Link>
       </div>
     </div>
   );
