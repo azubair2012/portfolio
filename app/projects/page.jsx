@@ -7,8 +7,7 @@ import Fashion from "/public/assets/images/fashion.png";
 import PGB from "/public/assets/images/pgb.jpg";
 import Jam from "/public/assets/images/jam.jpg";
 import JR from "/public/assets/images/jandr.png";
-
-// import Bike from "/public/assets/images/bike.png";
+import Crud from "/public/assets/images/crud.jpg";
 
 const Projects = () => {
   return (
@@ -28,6 +27,16 @@ const Projects = () => {
           alt={"jr"}
           url="https://jandr.vercel.app/"
           github={"https://github.com/azubair2012/jandr"}
+        />
+        <Project
+          image={Crud}
+          description={"Employee logging app using MERN stack "}
+          header={"MERN Project"}
+          alt={"null"}
+          url="https://crud-project-red.vercel.app/"
+          github={
+            "https://github.com/azubair2012/crud_project/tree/master/frontend"
+          }
         />
         <Project
           image={PGB}
