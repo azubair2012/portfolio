@@ -11,11 +11,10 @@ import Crud from "/public/assets/images/crud.jpg";
 
 const Projects = () => {
   return (
-    <div className=" overflow-hidden">
+    <div className="overflow-hidden">
       <div>
         <Transition />
       </div>
-
       <div className="flex flex-col gap-8 items-center">
         <div className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
           Imagination Trumps Knowledge!

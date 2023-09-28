@@ -42,11 +42,18 @@ const Navbar = () => {
             Projects
           </Link>
           <Link
-            className="hover:underline underline-offset-4 decoration-[#A93800] animate-bounce"
+            className="hover:underline underline-offset-4 decoration-[#A93800]"
+            href="/gallery"
+          >
+            Gallery
+          </Link>
+          <Link
+            className="hover:underline underline-offset-4 decoration-[#A93800] lg:animate-bounce"
             href="/contact"
           >
             Contact Us
           </Link>
+
           <Link
             className="hover:underline animate-bounce invisible md:visible sm:visible lg:invisible underline-offset-4 decoration-[#A93800]"
             href="https://wa.me/8801776909659"

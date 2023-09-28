@@ -16,6 +16,9 @@ module.exports = {
         title: ['"Yanone Kaffeesatz"', "serif"],
         text2: ["Oswald", "serif"],
       },
+      scale: {
+        400: "4",
+      },
     },
   },
   plugins: [],
