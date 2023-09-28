@@ -50,8 +50,6 @@ const Gallery = () => {
           >
             <Image
               src={dataFromChild}
-              width={dataFromChild.width}
-              height={dataFromChild.height}
               alt="null"
               className="rounded-3xl border-8 border-[#003336]"
             />
