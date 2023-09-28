@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://studiozubair.com/sitemap.xml
