@@ -2,9 +2,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Burg from "/public/assets/icons/HB_menu.svg";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiMenu } from "react-icons/hi";
+import logo from "/public/assets/images/sz_logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,9 +17,7 @@ const Navbar = () => {
       <div className="lg:flex md:flex sm:flex hidden items-center justify-evenly pt-6 ">
         <div>
           <Link href="/">
-            <div className="flex items-center justify-center bg-[#184a4a] font-title text-white text-[40px] w-[70px] h-[70px] rounded-full">
-              SZ
-            </div>
+            <Image src={logo} width={80} />
           </Link>
         </div>
         <div className="flex gap-[60px] text-[30px] font-title ">
@@ -120,7 +118,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <Image src={Burg} width={40} alt="hamburger-menu" />; */
-}
