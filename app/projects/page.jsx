@@ -8,6 +8,7 @@ import PGB from "/public/assets/images/pgb.jpg";
 import Jam from "/public/assets/images/jam.jpg";
 import JR from "/public/assets/images/jandr.png";
 import Crud from "/public/assets/images/crud.jpg";
+import Padma from "/public/assets/images/padma.jpg";
 
 const Projects = () => {
   return (
@@ -36,6 +37,14 @@ const Projects = () => {
           github={
             "https://github.com/azubair2012/crud_project/tree/master/frontend"
           }
+        />
+        <Project
+          image={Padma}
+          description={"Holiday Booking Site"}
+          header={"Padma Tours & Travels International"}
+          alt={"null"}
+          url="https://padmatravels.netlify.app"
+          github={"https://github.com/azubair2012/padma_travels"}
         />
         <Project
           image={PGB}
