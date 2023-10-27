@@ -42,7 +42,7 @@ const Projects = () => {
           image={Padma}
           description={"Holiday Booking Site"}
           header={"Padma Tours & Travels International"}
-          alt={"null"}
+          alt={"homepage"}
           url="https://padmatravels.netlify.app"
           github={"https://github.com/azubair2012/padma_travels"}
         />
