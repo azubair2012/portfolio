@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Transition from "../components/Transition";
-import Portrait from "/public/assets/images/final-1.png";
+import Portrait from "/public/assets/images/final-1.webp";
 import Counter from "../components/Counter";
 import Mongo from "/public/assets/skills/mongo.png";
 import Css from "/public/assets/skills/css.png";

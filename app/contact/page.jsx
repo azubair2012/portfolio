@@ -4,11 +4,11 @@ import Link from "next/link";
 // external import
 import Transition from "../components/Transition";
 import Inst from "/public/assets/images/instagram.png";
-import Face from "/public/assets/images/facebook.png";
-import LinkedIn from "/public/assets/images/linkedin.png";
-import Wapp from "/public/assets/images/whatsapp.png";
-import Email from "/public/assets/images/email.png";
-import Phone from "/public/assets/images/phone.png";
+import Face from "/public/assets/images/facebook.webp";
+import LinkedIn from "/public/assets/images/linkedin.webp";
+import Wapp from "/public/assets/images/whatsapp.webp";
+import Email from "/public/assets/images/email.webp";
+import Phone from "/public/assets/images/phone.webp";
 import Form from "../components/Form";
 
 const page = () => {

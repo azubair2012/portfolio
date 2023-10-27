@@ -1,12 +1,12 @@
 import React from "react";
 import Project from "../components/Project";
-import Crypto from "/public/assets/images/crypto.png";
+import Crypto from "/public/assets/images/crypto.webp";
 import Transition from "../components/Transition";
-import Art from "/public/assets/images/art.png";
-import Fashion from "/public/assets/images/fashion.png";
+import Art from "/public/assets/images/art.webp";
+import Fashion from "/public/assets/images/fashion.webp";
 import PGB from "/public/assets/images/pgb.jpg";
 import Jam from "/public/assets/images/jam.jpg";
-import JR from "/public/assets/images/jandr.png";
+import JR from "/public/assets/images/jandr.webp";
 import Crud from "/public/assets/images/crud.jpg";
 import Padma from "/public/assets/images/padma.jpg";
 

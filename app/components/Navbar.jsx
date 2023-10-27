@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineClose } from "react-icons/ai";
 import { HiMenu } from "react-icons/hi";
-import logo from "/public/assets/images/sz_logo.png";
+import logo from "/public/assets/images/sz_logo.webp";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

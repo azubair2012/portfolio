@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Face from "/public/assets/images/face.png";
+import Face from "/public/assets/images/face.webp";
 import Hire from "./components/Hire";
 import Transition from "./components/Transition";
 const Home = () => {
@@ -39,8 +39,8 @@ const Home = () => {
             I'm Zubair
           </div>
           <div className="justify-evenly font-title lg:text-[30px] text-[16px]">
-            A full-stack web developer & graphic designer. <br /> I turn ideas
-            into innovative web applications.
+            A full-stack software developer & designer. <br /> I turn ideas into
+            innovative applications.
           </div>
           <div className="flex gap-8 sm:pb-10 justify-center lg:justify-start">
             <Link
