@@ -4,11 +4,11 @@ import Crypto from "/public/assets/images/crypto.webp";
 import Transition from "../components/Transition";
 import Art from "/public/assets/images/art.webp";
 import Fashion from "/public/assets/images/fashion.webp";
-import PGB from "/public/assets/images/pgb.jpg";
-import Jam from "/public/assets/images/jam.jpg";
+import PGB from "/public/assets/images/pgb.webp";
+import Jam from "/public/assets/images/jam.webp";
 import JR from "/public/assets/images/jandr.webp";
-import Crud from "/public/assets/images/crud.jpg";
-import Padma from "/public/assets/images/padma.jpg";
+import Crud from "/public/assets/images/crud.webp";
+import Padma from "/public/assets/images/padma.webp";
 
 const Projects = () => {
   return (
@@ -17,9 +17,9 @@ const Projects = () => {
         <Transition />
       </div>
       <div className="flex flex-col gap-8 items-center">
-        <div className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
+        <h1 className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
           Imagination Trumps Knowledge!
-        </div>
+        </h1>
         <Project
           image={JR}
           description={"Car insurance website"}

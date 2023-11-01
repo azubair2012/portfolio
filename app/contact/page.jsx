@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 // external import
 import Transition from "../components/Transition";
-import Inst from "/public/assets/images/instagram.png";
+import Inst from "/public/assets/images/instagram.webp";
 import Face from "/public/assets/images/facebook.webp";
 import LinkedIn from "/public/assets/images/linkedin.webp";
 import Wapp from "/public/assets/images/whatsapp.webp";
@@ -17,9 +17,9 @@ const page = () => {
       <div>
         <Transition />
       </div>
-      <div className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
+      <h1 className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium pt-6 lg:pt-20">
         Let's Build Something Awesome!
-      </div>
+      </h1>
       {/* icon section */}
       <div className="lg:flex flex-cols justify-center ml-[70px] gap-10 py-10">
         <div className="w-[230px] lg:h-[320px] h-[240px] bg-[#003336] rounded-3xl flex items-center justify-center hover:scale-125 ease-in duration-100 shadow-2xl mb-4">

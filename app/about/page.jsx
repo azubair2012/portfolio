@@ -4,23 +4,23 @@ import Link from "next/link";
 import Transition from "../components/Transition";
 import Portrait from "/public/assets/images/final-1.webp";
 import Counter from "../components/Counter";
-import Mongo from "/public/assets/skills/mongo.png";
-import Css from "/public/assets/skills/css.png";
-import Javascript from "/public/assets/skills/javascript.png";
-import ReactImg from "/public/assets/skills/react.png";
-import Tailwind from "/public/assets/skills/tailwind.png";
-import Github from "/public/assets/skills/github1.png";
-import Firebase from "/public/assets/skills/firebase.png";
-import NextJS from "/public/assets/skills/nextjs.png";
-import Html from "/public/assets/skills/html.png";
-import Ai from "/public/assets/skills/ai.png";
-import PS from "/public/assets/skills/ps.png";
-import Fig from "/public/assets/skills/fig.png";
-import XD from "/public/assets/skills/xd.png";
-import Node from "/public/assets/skills/node.png";
-import BS from "/public/assets/skills/boot.png";
-import WP from "/public/assets/skills/wp.png";
-import AWS from "/public/assets/skills/aws.png";
+import Mongo from "/public/assets/skills/mongo.webp";
+import Css from "/public/assets/skills/css.webp";
+import Javascript from "/public/assets/skills/javascript.webp";
+import ReactImg from "/public/assets/skills/react.webp";
+import Tailwind from "/public/assets/skills/tailwind.webp";
+import Github from "/public/assets/skills/github1.webp";
+import Firebase from "/public/assets/skills/firebase.webp";
+import NextJS from "/public/assets/skills/nextjs.webp";
+import Html from "/public/assets/skills/html.webp";
+import Ai from "/public/assets/skills/ai.webp";
+import PS from "/public/assets/skills/ps.webp";
+import Fig from "/public/assets/skills/fig.webp";
+import XD from "/public/assets/skills/xd.webp";
+import Node from "/public/assets/skills/node.webp";
+import BS from "/public/assets/skills/boot.webp";
+import WP from "/public/assets/skills/wp.webp";
+import AWS from "/public/assets/skills/aws.webp";
 import Skill from "../components/Skill";
 
 const About = () => {
@@ -30,9 +30,9 @@ const About = () => {
         <Transition />
       </div>
       {/* About Section */}
-      <div className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[35px] font-medium pt-10">
+      <h1 className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[35px] font-medium pt-10">
         Passion Fuels Purpose!
-      </div>
+      </h1>
       <div className="flex lg:flex-row flex-col justify-evenly items-center lg:text-left text-center">
         <div>
           <div className="text-teal-700 text-[30px] font-semibold">
@@ -78,7 +78,7 @@ const About = () => {
 
       {/* Skills Section */}
       <div className="flex flex-col text-center items-center py-16">
-        <div className="font-bold text-[90px] font-title">Skills</div>
+        <h1 className="font-bold text-[90px] font-title">Skills</h1>
         {/* skill test */}
         <div className="w-[70vw] lg:w-[60vw]">
           <div className=" flex flex-wrap justify-between gap-4">
@@ -95,7 +95,7 @@ const About = () => {
               <Skill image={Mongo} name="Mongo DB" />
             </div>
             <div>
-              <Skill image={AWS} name="" />
+              <Skill image={AWS} name="aws" />
             </div>
             <div>
               <Skill image={WP} name="WordPress" />

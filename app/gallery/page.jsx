@@ -58,9 +58,9 @@ const Gallery = () => {
       </div>
       {/* modal end */}
 
-      <div className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium my-10">
+      <h1 className="text-center font-title lg:font-extrabold lg:text-[100px] md:text-[60px] text-[30px] font-medium my-10">
         Here Art Meets Inspiration
-      </div>
+      </h1>
       <div className="mx-[20vw] flex flex-wrap gap-8">
         <Pictureframe
           src={Pic14}
