@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 const layout = ({ children }) => {
   return (
-    <html>
+    <html lang="en">
       <body>
         <Navbar />
         {children}
