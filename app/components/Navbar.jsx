@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="lg:flex md:flex sm:flex hidden items-center justify-evenly pt-6 ">
         <div>
           <Link href="/">
-            <Image src={logo} width={80} />
+            <Image src={logo} width={80} alt="Studio Zubair Logo" />
           </Link>
         </div>
         <div className="flex gap-[60px] text-[30px] font-title ">
