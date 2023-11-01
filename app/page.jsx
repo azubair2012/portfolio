@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import Link from "next/link";
 import Face from "/public/assets/images/face.webp";
 import Hire from "./components/Hire";
