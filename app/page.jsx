@@ -7,9 +7,9 @@ import Transition from "./components/Transition";
 const Home = () => {
   return (
     <main className="pt-[50px] lg:pt-0 h-full bg-[#E6F4F1]">
-      <div>
+      {/* <div>
         <Transition />
-      </div>
+      </div> */}
       <div>
         <Hire />
       </div>
