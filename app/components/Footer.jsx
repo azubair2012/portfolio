@@ -15,22 +15,39 @@ const Footer = () => {
       <Backtotop />
       {/* btn */}
       <div className="flex justify-center gap-4">
-        <Link href="https://www.facebook.com/azubair108" target="_blank">
+        <Link
+          href="https://www.facebook.com/azubair108"
+          target="_blank"
+          as="facebook link"
+        >
           <BsFacebook color="white" alt="facebook link" />
         </Link>
-        <Link href="https://www.instagram.com/the_web_nomad/" target="_blank">
+        <Link
+          href="https://www.instagram.com/the_web_nomad/"
+          target="_blank"
+          as="facebook link"
+        >
           <ImInstagram color="white" alt="instagram link" />
         </Link>
         <Link
           href="https://www.linkedin.com/in/abu-zubair-a7482b1b7/"
           target="_blank"
+          as="facebook link"
         >
           <BsLinkedin color="white" alt="linkedin link" />
         </Link>
-        <Link href="https://www.instagram.com/the_web_nomad/" target="_blank">
+        <Link
+          href="https://www.instagram.com/the_web_nomad/"
+          target="_blank"
+          as="facebook link"
+        >
           <FiDribbble color="white" alt="dribble link" />
         </Link>
-        <Link href="https://wa.me/8801776909659" target="_blank">
+        <Link
+          href="https://wa.me/8801776909659"
+          target="_blank"
+          as="facebook link"
+        >
           <BsWhatsapp color="white" alt="whatsapp link" />
         </Link>
       </div>
