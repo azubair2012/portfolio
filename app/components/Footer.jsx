@@ -18,7 +18,7 @@ const Footer = () => {
         <Link
           href="https://www.facebook.com/azubair108"
           target="_blank"
-          as="facebook link"
+          aria-label="facebook"
         >
           <BsFacebook color="white" alt="facebook link" />
         </Link>
