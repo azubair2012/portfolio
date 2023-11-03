@@ -25,28 +25,28 @@ const Footer = () => {
         <Link
           href="https://www.instagram.com/the_web_nomad/"
           target="_blank"
-          as="facebook link"
+          aria-label="instagram link"
         >
           <ImInstagram color="white" alt="instagram link" />
         </Link>
         <Link
           href="https://www.linkedin.com/in/abu-zubair-a7482b1b7/"
           target="_blank"
-          as="facebook link"
+          aria-label="linkedin link"
         >
           <BsLinkedin color="white" alt="linkedin link" />
         </Link>
         <Link
           href="https://www.instagram.com/the_web_nomad/"
           target="_blank"
-          as="facebook link"
+          aria-label="dribble link"
         >
           <FiDribbble color="white" alt="dribble link" />
         </Link>
         <Link
           href="https://wa.me/8801776909659"
           target="_blank"
-          as="facebook link"
+          aria-label="whatsapp link"
         >
           <BsWhatsapp color="white" alt="whatsapp link" />
         </Link>
