@@ -16,22 +16,22 @@ const Footer = () => {
       {/* btn */}
       <div className="flex justify-center gap-4">
         <Link href="https://www.facebook.com/azubair108" target="_blank">
-          <BsFacebook color="white" />
+          <BsFacebook color="white" alt="facebook link" />
         </Link>
         <Link href="https://www.instagram.com/the_web_nomad/" target="_blank">
-          <ImInstagram color="white" />
+          <ImInstagram color="white" alt="instagram link" />
         </Link>
         <Link
           href="https://www.linkedin.com/in/abu-zubair-a7482b1b7/"
           target="_blank"
         >
-          <BsLinkedin color="white" />
+          <BsLinkedin color="white" alt="linkedin link" />
         </Link>
         <Link href="https://www.instagram.com/the_web_nomad/" target="_blank">
-          <FiDribbble color="white" />
+          <FiDribbble color="white" alt="dribble link" />
         </Link>
         <Link href="https://wa.me/8801776909659" target="_blank">
-          <BsWhatsapp color="white" />
+          <BsWhatsapp color="white" alt="whatsapp link" />
         </Link>
       </div>
       <div className="flex justify-center gap-10 py-2  text-white">
