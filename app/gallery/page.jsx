@@ -21,6 +21,9 @@ import Pic6 from "/public/assets/images/gallery/Empty-Glass-Jar-Mockup.webp";
 import Pic15 from "/public/assets/images/gallery/graphic_design.webp";
 import Pic16 from "/public/assets/images/gallery/Delivery-Final.webp";
 import Pic17 from "/public/assets/images/gallery/Home.webp";
+import Pic18 from "/public/assets/images/gallery/card.webp";
+import Pic19 from "/public/assets/images/gallery/safari1.webp";
+import Pic20 from "/public/assets/images/gallery/padma1.webp";
 
 import Pictureframe from "/app/components/PictureFrame";
 import Transition from "/app/components/Transition";
@@ -150,15 +153,29 @@ const Gallery = () => {
           title={"Cafe Logo"}
         />
         <Pictureframe
+          src={Pic20}
+          switchModal={switchModal}
+          title={"Travel Agent Logo"}
+        />
+        <Pictureframe
+          src={Pic19}
+          switchModal={switchModal}
+          title={"Safari Park Logo"}
+        />
+        <Pictureframe
           src={Pic11}
           switchModal={switchModal}
           title={"Youtube Channel Logo"}
         />
-
         <Pictureframe
           src={Pic13}
           switchModal={switchModal}
           title={"Cafe Banner"}
+        />
+        <Pictureframe
+          src={Pic18}
+          switchModal={switchModal}
+          title={"Business Card"}
         />
       </div>
     </div>
